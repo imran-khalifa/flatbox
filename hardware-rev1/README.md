@@ -1,5 +1,7 @@
 # Flatbox rev1
 
+_**Please note**: There's a newer version of this Flatbox variant: [rev1.1](../hardware-rev1.1). If you're starting fresh, it's probably better to make that one._
+
 This is rev1 of the Flatbox. In this version an Arduino Pro Micro is soldered onto the main PCB.
 
 To make one you will need:
@@ -22,7 +24,7 @@ The switches can be soldered in directly to the PCB or you can use hotswap socke
 
 The Arduino has to be soldered directly on top of the PCB, otherwise it won't fit in the case (the plastic base of the pin header can't go between the Arduino and the PCB).
 
-You don't have to use the [code](../firmware) included here, you can use any other ATmega32U4-compatible firmware. The included firmware works with the PS3 and PC.
+You don't have to use the [code](../firmware-atmega32u4) included here, you can use any other ATmega32U4-compatible firmware. The included firmware works with the PS3 and PC.
 
 ![Flatbox rev1 PCB](images/Flatbox-rev1-populated-pcb.jpg)
 
